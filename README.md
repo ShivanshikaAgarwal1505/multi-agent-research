@@ -78,3 +78,6 @@ Open `http://localhost:8501` in your browser.
 ├── .env.example          # Environment variable template
 └── requirements.txt
 ```
+
+## Project Output
+<img width="1748" height="721" alt="image" src="https://github.com/user-attachments/assets/f324e74f-ac1e-4918-988d-4942839d6b94" />
