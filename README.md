@@ -4,11 +4,13 @@ A 4-agent LangGraph pipeline that takes a research question and produces a
 structured report using hybrid retrieval (web search + vector DB).
 
 ## Architecture
+```bash
 Planner → Web Search ─┐
 
                       ├─► Summarizer → Critic → Writer
 
         Vector Search ┘
+```
 
 **Agents:**
 - **Planner** — decomposes the query into focused sub-questions
