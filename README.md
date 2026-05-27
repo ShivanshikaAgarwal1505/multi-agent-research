@@ -5,7 +5,9 @@ structured report using hybrid retrieval (web search + vector DB).
 
 ## Architecture
 Planner → Web Search ─┐
+
                       ├─► Summarizer → Critic → Writer
+
         Vector Search ┘
 
 **Agents:**
