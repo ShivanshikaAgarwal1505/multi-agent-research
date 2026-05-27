@@ -63,6 +63,7 @@ streamlit run frontend.py
 Open `http://localhost:8501` in your browser.
 
 ## Project Structure
+```bash
 ├── agents/
 │   ├── planner.py        # Query decomposition
 │   ├── searcher.py       # Web + vector search + summarizer
@@ -76,3 +77,4 @@ Open `http://localhost:8501` in your browser.
 ├── eval.py               # Baseline comparison script
 ├── .env.example          # Environment variable template
 └── requirements.txt
+```
